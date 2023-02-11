@@ -7,6 +7,11 @@
 <title>w3newbie HTML Email</title>
 <style type="text/css">
 
+  a {
+    text-decoration: none;
+    color: #4980d2;
+  }
+
 	body {
 		margin: 0;
 		background-color: #cccccc;
@@ -74,7 +79,15 @@
   }
 
 	@media screen and (max-width: 600px) { 
+    .twoColumns .content img {
+      width: 300px !important;
+      max-width: 300px !important; 
+    }
 
+    .padding {
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+    }
 	}
 </style>
 </head>
@@ -177,7 +190,7 @@
                         <tr>
                           <td>
                             <p style="font-size: 17px; font-weight: bold;">Create Custom Designs</p>
-                            <p style="padding-bottom: 15px;">Repsonsive HTML Email Templates that you can build around. Responsive HTML Templates that you can build around. Responsive HTML Templates that you can build around. Responsive HTML Templates that you can build around.</p>
+                            <p style="padding-bottom: 15px;">Repsonsive HTML Email Templates that you can build around. Responsive HTML Templates that you can build around.</p>
                             <a href="#" class="button">Read More</a>
                           </td>
                         </tr>
@@ -208,7 +221,26 @@
       </tr>
       
       <!-- FOOTER SECTION -->
+      <tr>
+        <td style="background-color:#efefef;">
+          <table width="100%;">
+            <tr>
+              <td style="padding: 30px 10px; text-align: center;">
+                <a href="#"><img src="https://lh5.googleusercontent.com/SyW4XZ_FWhkwdlX2qNvEE-dsBB4kvW89r1dfb-xvG_SkSgbp1pzSi9VNxc2P5DkAIAw=w2400" alt="w3newbie" width="160"></a>
+                <p>w3newbie HTML Email</p>
+                <p>123 Street Road, City, State 555555</p>
+                <p><a href="mailto:email@example.com">email@newbie.com</a></p>
+                <p><a href="tel:4169671111">416-967-1111</a></p>
+                <p style="font-size: 13px"><a href="#">UNSUBSCRIBE</a></p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
       
+      <tr>
+        <td height="10" style="background-color:#4980d2;"></td>
+      </tr>
       
       </table>
     </center>
